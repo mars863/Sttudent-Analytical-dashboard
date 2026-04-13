@@ -1,0 +1,11 @@
+student_id,name,cohort,math_marks,science_marks,english_marks,attendance
+1,Aarav,A,78,82,74,88
+2,Diya,A,35,41,39,58
+3,Rohan,B,65,,72,76
+4,Isha,B,29,33,37,62
+5,Meera,A,91,89,,95
+6,Karan,C,48,52,46,
+7,Ananya,C,,67,71,84
+8,Vikram,B,55,49,51,59
+9,Priya,A,38,44,36,63
+10,Neha,C,72,75,78,91

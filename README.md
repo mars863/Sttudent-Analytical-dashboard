@@ -1,47 +1,49 @@
-# Student Analytical Dashboard
+# Student Analytics Dashboard
 
-## Overview
+This is a beginner-friendly Python project that:
 
-This project analyzes student performance using factors like marks, attendance, and study hours to identify trends and insights.
+- Reads student data from a CSV file
+- Cleans missing values using the median
+- Creates simple new features such as average marks
+- Finds at-risk students
+- Calculates KPI values
+- Stores results in SQLite
+- Shows a simple CLI dashboard
 
-## Problem Statement
+## Project Structure
 
-Educational institutions often lack clear insights into student performance patterns, making it difficult to identify weak students early.
-
-## Solution
-
-This dashboard processes student data and provides:
-
-* Performance insights
-* Data visualization
-* Analytical summaries
-
-## Features
-
-* Student performance analysis
-* Visual representation of data
-* Easy-to-understand insights
-
-## Tech Stack
-
-* Python
-* Pandas
-* Matplotlib / Seaborn
-* SQLite (if used)
+```text
+student_analytics_dashboard/
+|-- data/
+|   |-- students.csv
+|-- main.py
+|-- requirements.txt
+|-- student_dashboard.db   # created after running the program
+```
 
 ## How to Run
 
+1. Open a terminal in the `student_analytics_dashboard` folder.
+2. Install packages:
+
 ```bash
 pip install -r requirements.txt
+```
+
+3. Run the project:
+
+```bash
 python main.py
 ```
 
-## Future Improvements
+## Menu Options
 
-* Add prediction model (pass/fail)
-* Build API using FastAPI
-* Add frontend dashboard
+- View all students
+- View at-risk students
+- View summary statistics
+- Exit
 
-## Author
+## Beginner Improvements
 
-A4shad
+1. Add a menu option to filter students by cohort.
+2. Export at-risk students to a new CSV file.
